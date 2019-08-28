@@ -36,3 +36,37 @@ allprojects {
         jcenter()
     }
 }
+
+// android {
+//     compileSdkVersion 26
+//     buildToolsVersion "29.0.0"
+
+//     defaultConfig {
+//         applicationId "com.teste"
+//         minSdkVersion 16
+//         targetSdkVersion 26
+//         versionCode 9
+//         versionName "2.0.6"
+//         ndk {
+//             abiFilters "armeabi-v7a", "x86"
+//         }
+//     }
+
+    
+//     signingConfigs {
+//         release {
+//             if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+//                 storeFile file(MYAPP_UPLOAD_STORE_FILE)
+//                 storePassword MYAPP_UPLOAD_STORE_PASSWORD
+//                 keyAlias MYAPP_UPLOAD_KEY_ALIAS
+//                 keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+//             }
+//         }
+//     }
+//     buildTypes {
+//         release {
+        
+//             signingConfig signingConfigs.release
+//         }
+//     }
+// }
